@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_wall",
   "spriteId": {
-    "name": "spr_wall_seperated",
-    "path": "sprites/spr_wall_seperated/spr_wall_seperated.yy",
+    "name": "spr_wall_new",
+    "path": "sprites/spr_wall_new/spr_wall_new.yy",
   },
   "solid": false,
   "visible": true,
