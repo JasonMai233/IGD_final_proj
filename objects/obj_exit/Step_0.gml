@@ -5,3 +5,5 @@ if(place_meeting(x,y,obj_avatar))
 	global.door_exist = true;
 	room_goto(rm_start);
 }
+
+depth = 10000;

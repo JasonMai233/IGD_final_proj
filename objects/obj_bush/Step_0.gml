@@ -4,7 +4,7 @@ if (y >= obj_avatar.y)
 }
 else
 {
-	depth = 10000-y;	
+	depth = y;	
 }
 
 
