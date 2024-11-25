@@ -1,6 +1,14 @@
-if (y > obj_avatar.y+5)
+if (y >= obj_avatar.y)
 {
-	depth = -1;
+	depth = obj_avatar.depth-1;
 }
 else
-	depth = 30;
+{
+	depth = 30;	
+}
+
+
+
+
+
+

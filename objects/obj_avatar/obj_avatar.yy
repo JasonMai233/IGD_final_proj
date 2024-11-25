@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_avatar",
   "spriteId": {
-    "name": "spr_avatar_front",
-    "path": "sprites/spr_avatar_front/spr_avatar_front.yy",
+    "name": "spr_avatar_S",
+    "path": "sprites/spr_avatar_S/spr_avatar_S.yy",
   },
   "solid": false,
   "visible": true,

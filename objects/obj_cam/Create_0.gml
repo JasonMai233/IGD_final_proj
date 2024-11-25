@@ -19,7 +19,7 @@ function zoom_out()
 
 function zoom_in()
 {
-	if (view_width > 480)
+	if (view_width > 720)
 	{
 		view_height -=2
 		view_width -= 3
@@ -29,7 +29,7 @@ function zoom_in()
 
 function auto_zoom()
 {
-	if (obj_avatar.x >= 350) //add more requirement here
+	if (obj_avatar.x >= 1100) //add more requirement here
 		zoom_out();
 	else
 		zoom_in();
