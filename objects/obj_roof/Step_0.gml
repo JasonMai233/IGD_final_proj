@@ -1,4 +1,4 @@
-depth = -y-1;
+depth = -y-100;
 
 if(within_zone())
 {
