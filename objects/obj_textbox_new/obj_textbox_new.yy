@@ -1,20 +1,17 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_road",
+  "name": "obj_textbox_new",
   "spriteId": {
-    "name": "spr_road",
-    "path": "sprites/spr_road/spr_road.yy",
+    "name": "spr_textbox_new",
+    "path": "sprites/spr_textbox_new/spr_textbox_new.yy",
   },
   "solid": false,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "obj_floor",
-    "path": "objects/obj_floor/obj_floor.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -31,7 +28,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "decoration",
-    "path": "folders/Objects/decoration.yy",
+    "name": "Objects",
+    "path": "folders/Objects.yy",
   },
 }
