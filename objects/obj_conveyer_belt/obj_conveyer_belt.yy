@@ -1,20 +1,17 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_shopKeeper_npc",
+  "name": "obj_conveyer_belt",
   "spriteId": {
-    "name": "spr_shopKeeper",
-    "path": "sprites/spr_shopKeeper/spr_shopKeeper.yy",
+    "name": "spr_conveyer_belt",
+    "path": "sprites/spr_conveyer_belt/spr_conveyer_belt.yy",
   },
   "solid": false,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "obj_npc_base_new",
-    "path": "objects/obj_npc_base_new/obj_npc_base_new.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -27,11 +24,14 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "npc",
-    "path": "folders/Objects/collideable/npc.yy",
+    "name": "utility",
+    "path": "folders/Objects/utility.yy",
   },
 }
