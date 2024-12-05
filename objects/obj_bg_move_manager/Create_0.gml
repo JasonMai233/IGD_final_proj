@@ -36,7 +36,7 @@ function spawn_bg_npc()
 }
 
 car_spawn_cooldown = 0;
-car_spawn_cd_max = 100;
+car_spawn_cd_max = 50;
 car_spawn_x = [-100,1184,3000];
 car_spawn_y = [1750,-100,1650];
 
