@@ -1,19 +1,16 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_shopKeeper_npc",
-  "spriteId": {
-    "name": "spr_shopKeeper",
-    "path": "sprites/spr_shopKeeper/spr_shopKeeper.yy",
-  },
+  "name": "obj_npc_base_new",
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_npc_base_new",
-    "path": "objects/obj_npc_base_new/obj_npc_base_new.yy",
+    "name": "obj_collideable",
+    "path": "objects/obj_collideable/obj_collideable.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -27,7 +24,9 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {

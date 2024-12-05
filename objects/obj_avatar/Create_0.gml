@@ -7,6 +7,8 @@ image_speed = 0;
 image_index = 0;
 free_moving = true;
 p_dir = noone; // current direction of player
+just_teleported = false;
+jt_timer = 0;
 
 enum DIR {
 	S,
@@ -55,26 +57,4 @@ function setSpr()
 		break;
 		
 	}
-}
-
-function dash(dir, dis)
-{
-	//show_debug_message("dash");
-	audio_play_sound(snd_teleport, 10, false);
-	switch (dir)
-	{
-		case 0:
-			y -= dis; 
-		break;
-		case 1:
-			y += dis; 
-		break;
-		case 2:
-			x -= dis; 
-		break;
-		case 3:
-			x += dis; 
-		break;
-	}
-	
 }

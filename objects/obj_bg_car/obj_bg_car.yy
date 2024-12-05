@@ -1,17 +1,20 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_textbox_new",
+  "name": "obj_bg_car",
   "spriteId": {
-    "name": "spr_textbox_new",
-    "path": "sprites/spr_textbox_new/spr_textbox_new.yy",
+    "name": "spr_bg_car",
+    "path": "sprites/spr_bg_car/spr_bg_car.yy",
   },
   "solid": false,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_bg_npc",
+    "path": "objects/obj_bg_npc/obj_bg_npc.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -28,7 +31,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "decoration",
+    "path": "folders/Objects/decoration.yy",
   },
 }

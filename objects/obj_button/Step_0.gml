@@ -1,4 +1,4 @@
-if (place_meeting (x,y,obj_avatar) && !stepped)
+if (place_meeting (x,y,obj_avatar) && !stepped && obj_avatar.just_teleported)
 {
 	button_activate();
 }
