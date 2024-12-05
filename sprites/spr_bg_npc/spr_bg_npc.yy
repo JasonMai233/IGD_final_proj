@@ -1,11 +1,11 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "spr_npc1_new",
+  "name": "spr_bg_npc",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
-  "origin": 0,
+  "origin": 4,
   "preMultiplyAlpha": false,
   "edgeFiltering": false,
   "collisionTolerance": 0,
@@ -36,7 +36,7 @@
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "spr_npc1_new",
+    "name": "spr_bg_npc",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -48,10 +48,10 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"ca276f39-3ece-42d2-8ebb-229e40c767ab","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b8a4e337-f70f-43b5-9ff7-9a1c4f201178","path":"sprites/spr_npc1_new/spr_npc1_new.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"4ef947f0-a169-4d8a-ac3a-7bc997f6b672","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a16e6376-58a7-4d6d-8422-8404051ce4e3","path":"sprites/spr_npc1_new/spr_npc1_new.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"83c4f2a0-588b-4ab0-8a3c-eb01229ac91b","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c730d63b-b3f7-4244-b560-9d95e9d71da6","path":"sprites/spr_npc1_new/spr_npc1_new.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"5e2a5cc7-37a1-440f-b16c-d3a94a83df9f","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ab839b13-bdfe-4811-94f9-66c284d54efb","path":"sprites/spr_npc1_new/spr_npc1_new.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"ca276f39-3ece-42d2-8ebb-229e40c767ab","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b8a4e337-f70f-43b5-9ff7-9a1c4f201178","path":"sprites/spr_bg_npc/spr_bg_npc.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"4ef947f0-a169-4d8a-ac3a-7bc997f6b672","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a16e6376-58a7-4d6d-8422-8404051ce4e3","path":"sprites/spr_bg_npc/spr_bg_npc.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"83c4f2a0-588b-4ab0-8a3c-eb01229ac91b","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c730d63b-b3f7-4244-b560-9d95e9d71da6","path":"sprites/spr_bg_npc/spr_bg_npc.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"5e2a5cc7-37a1-440f-b16c-d3a94a83df9f","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ab839b13-bdfe-4811-94f9-66c284d54efb","path":"sprites/spr_bg_npc/spr_bg_npc.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
@@ -64,8 +64,8 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 0,
-    "yorigin": 0,
+    "xorigin": 18,
+    "yorigin": 32,
     "eventToFunction": {},
     "eventStubScript": null,
   },
@@ -74,7 +74,7 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "other_npc",
-    "path": "folders/Sprites/blockables/new/npc/other_npc.yy",
+    "name": "new",
+    "path": "folders/Sprites/blockables/new.yy",
   },
 }

@@ -1,8 +1,11 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_bg_move_manager",
-  "spriteId": null,
+  "name": "obj_bg_npc",
+  "spriteId": {
+    "name": "spr_bg_npc",
+    "path": "sprites/spr_bg_npc/spr_bg_npc.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,
@@ -25,10 +28,13 @@
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
   ],
-  "properties": [],
+  "properties": [
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"path","varType":0,"value":"[[DIR.S, 100],[DIR.N, 100]]","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"spd","varType":0,"value":"10","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],},
+  ],
   "overriddenProperties": [],
   "parent": {
-    "name": "utility",
-    "path": "folders/Objects/utility.yy",
+    "name": "decoration",
+    "path": "folders/Objects/decoration.yy",
   },
 }
