@@ -1,5 +1,15 @@
 depth = -y;
 
+if(just_teleported)
+{
+	jt_timer++;
+	if(jt_timer >= 5)
+	{
+		jt_timer = 0;
+		just_teleported = false;
+	}
+}
+
 if (free_moving)
 {
 	if (keyboard_check(ord("W")) || keyboard_check(ord("S")) || keyboard_check(ord("A")) || keyboard_check(ord("D")))
