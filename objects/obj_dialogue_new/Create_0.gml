@@ -13,6 +13,10 @@ speaker_blend = c_white;
 nonspeaker_blend = c_gray;
 cur_selection = 0; // only used for dialogue with option
 
+text_counter = 0;
+text_max = 0;
+cur_displayed_text = "";
+
 spr1_blend = noone;
 spr2_blend = noone;
 
@@ -24,7 +28,7 @@ function open_dialogue(owner, finished, restart_num, dialogue)
 	if(finished)
 	{
 		dialogue_num = restart_num;
-		show_debug_message(dialogue_num);
+		//show_debug_message(dialogue_num);
 	}
 	visible = true;
 }
@@ -37,5 +41,6 @@ function reset_on_close()
 	dialogue_content = noone;
 	dialogue_num = 1;
 	cur_selection = 0;
+	text_max = 0;
 	bug_buffer = 1;	
 }

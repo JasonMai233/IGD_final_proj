@@ -30,15 +30,28 @@ if (visible) // visible means activated
 		break;
 	}
 	
+	var cur_text = cur_dialogue[1];
+	
+	// text scroll system
+	text_max = string_length(cur_text);
+	if (text_counter < text_max)
+	{
+		text_counter ++;
+		//show_debug_message(cur_displayed_text);
+	}
+	cur_displayed_text = string_copy(cur_text, 1, text_counter);
+	
+	// draw out the whole system
 	draw_clear_alpha(c_black, 0.4);
 	draw_sprite_ext(first_char, 0, center_x - 300, center_y - 50, 1, 1, 0, spr1_blend, 1);
 	draw_sprite_ext(second_char, 0, center_x + 300, center_y - 50, 1, 1, 0, spr2_blend, 1);
 	draw_sprite(spr_textbox_new, 0, center_x, center_y + 300);
 	draw_set_color(c_white);
 	draw_set_font(font_dialogue);
-	draw_text_ext(center_x - 450, center_y + 250,cur_dialogue[1], 25, 600);
+	draw_text_ext(center_x - 450, center_y + 250,cur_displayed_text, 25, 600);
 	
-	if(array_length(cur_dialogue) == 4) // length 4 means dialogue with options
+	// length 4 means dialogue with options, only display when line fully displayed
+	if(array_length(cur_dialogue) == 4 && text_counter >= text_max) 
 	{
 		var choices = cur_dialogue[3];
 		for(i = 0; i < array_length(choices); i++) // draw options on the right
@@ -78,29 +91,38 @@ if (visible) // visible means activated
 	// goto next line
 	if(keyboard_check_pressed(vk_space))
 	{
-		if (bug_buffer > 0)
-			bug_buffer --;
-		else
+		
+		if (text_counter < text_max) // if line not fully displayed
+			text_counter = text_max // display it to full line
+		else // then if fully displayed, goto next line
 		{
-			if (dialogue_num == array_length(dialogue_content)-1) // reached end of conversation
-			{
-				visible = false;
-				reset_on_close();
-			}
-			else if (array_length(cur_dialogue) == 4) // dialogue with choices
-			{
-				dialogue_num = cur_dialogue[3][cur_selection][1];
-				show_debug_message(dialogue_num);
-			}
-			else if(cur_dialogue[2] == noone) // dialogue without loop
-			{
-				dialogue_num ++;
-				show_debug_message(dialogue_num);
-			}
+			text_counter = 0;
+			cur_displayed_text = "";
+
+			if (bug_buffer > 0)
+				bug_buffer --;
 			else
 			{
-				dialogue_num = cur_dialogue[2]; // dialogue with loop
-				show_debug_message(dialogue_num);
+				if (dialogue_num == array_length(dialogue_content)-1) // reached end of conversation
+				{
+					visible = false;
+					reset_on_close();
+				}
+				else if (array_length(cur_dialogue) == 4) // dialogue with choices
+				{
+					dialogue_num = cur_dialogue[3][cur_selection][1];
+					//show_debug_message(dialogue_num);
+				}
+				else if(cur_dialogue[2] == noone) // dialogue without loop
+				{
+					dialogue_num ++;
+					//show_debug_message(dialogue_num);
+				} 
+				else
+				{
+					dialogue_num = cur_dialogue[2]; // dialogue with loop
+					//show_debug_message(dialogue_num);
+				}
 			}
 		}
 	}
