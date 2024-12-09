@@ -5,7 +5,6 @@ is_moving = false;
 
 image_speed = 0;
 image_index = 0;
-free_moving = true;
 p_dir = noone; // current direction of player
 just_teleported = false;
 jt_timer = 0;

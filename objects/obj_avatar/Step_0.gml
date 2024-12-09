@@ -10,7 +10,7 @@ if(just_teleported)
 	}
 }
 
-if (free_moving)
+if (global.free_move)
 {
 	if (keyboard_check(ord("W")) || keyboard_check(ord("S")) || keyboard_check(ord("A")) || keyboard_check(ord("D")))
 	{	
@@ -60,8 +60,12 @@ if (free_moving)
 	}
 	else
 	{
-		is_moving = false;
+		is_moving = false; // nothing is pressed
 	}
+}
+else
+{
+	is_moving = false; // when move is restricted in tutorial or dialogue
 }
 
 //45 degree movement check
