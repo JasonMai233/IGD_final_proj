@@ -1,8 +1,3 @@
-if(obj_avatar.x<1800 &&obj_avatar.x > 1500 && obj_avatar.y < 550 && obj_avatar.y > 400)
-{
-	draw_sprite(spr_tut_sign_1, 0, center_x, center_y - 100);
-}
-
 if(within_zone() && !showed)
 {
 	draw_set_font(font_UI);
@@ -38,5 +33,8 @@ if(show_tut)
 	if(keyboard_check_pressed(ord("A")) && current_page != 1)
 		current_page --;
 	if(keyboard_check_pressed(ord("G")) && current_page == array_length(tutorial_id))
+	{
 		show_tut = false;
+		global.free_move = true;
+	}
 }

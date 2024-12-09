@@ -1,11 +1,11 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "scr_show_next_dialogue",
+  "name": "new_npc_dialogues",
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "old dialogue system",
-    "path": "folders/Scripts/old dialogue system.yy",
+    "name": "Scripts",
+    "path": "folders/Scripts.yy",
   },
 }

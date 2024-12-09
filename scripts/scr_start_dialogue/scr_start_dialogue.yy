@@ -5,7 +5,7 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Scripts",
-    "path": "folders/Scripts.yy",
+    "name": "old dialogue system",
+    "path": "folders/Scripts/old dialogue system.yy",
   },
 }
