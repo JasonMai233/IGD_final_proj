@@ -6,23 +6,35 @@
 // there is allowed for a 4th element as choices, the choices array are in structure of [choice text, which dialogue it go to if selected].
 
 global.sample_new_dialogue = [	[spr_prof_avatar, spr_prof_shopkeeper],
-								//1
-								[spr_prof_shopkeeper,"hey there young boy! you are here for the chip your mom ordered, right?",noone],
-								//2
-								[spr_prof_shopkeeper, "there it is on the left, tell her I said hi!", noone],
-								//3
-								[spr_prof_shopkeeper, "do you have any questions?", noone, [["where should I go?", 4],["what's your name?", 6], ["nope! all good", 8]]],
-								//4
-								[spr_prof_avatar, "where should I go?", noone],
-								//5
-								[spr_prof_shopkeeper, "I think you should go North, to the middle bush.", 3],
-								//6
-								[spr_prof_avatar, "what's your name?", noone],
-								//7
-								[spr_prof_shopkeeper, "Shop Keeper, first name Shop, last name Keeper.", 3],
-								//8
-								[spr_prof_avatar, "I think I got everything.", noone],
-								//9
-								[spr_prof_shopkeeper, "Alright, see you then!", noone]
+								
+								[spr_prof_shopkeeper,"Yo! It's been a while, how's everything going?",noone],
+							
+								[spr_prof_avatar, "You know, nothing special, try to survive in this city", noone],
+							
+								[spr_prof_shopkeeper, "Glad you say that. So... you are here for the chip right?", noone],
+								
+								[spr_prof_avatar, "As you see, yeah", noone],
+								
+								[spr_prof_shopkeeper, "Alright alright. You are lucky, this is the last one in our stock, and there is somebody looking for it. But be careful. This city is no longer safe", noone],
+								
+								[spr_prof_shopkeeper, "Anyway,", noone],
+								
+								[spr_prof_shopkeeper, "Do you have any questions", noone, [["Where should I leave the chip again?", 8],["What's going on in this City", 10], ["I think I am good", 14]]],
+							
+								[spr_prof_avatar, "Where is the place again?", noone],
+							
+								[spr_prof_shopkeeper, "I think you should go North, leave it at the middle bush, right?		Come on... be more serious on your trade...", 7],
+								
+								[spr_prof_avatar, "Do you have any idea about what is going on in this City?", noone],
+								
+								[spr_prof_shopkeeper, "Well... It's just a pretty popular rumour. As you see, there are a lot of people missing, when they are found, they just standing there like a walking dead.", noone],
+							
+								[spr_prof_shopkeeper, "And... some whitnesses said, there is some kind of... Monsters haunting around recently", noone],
+								
+								[spr_prof_shopkeeper, "I know it sounds a bit... random... but anyway, be careful",7],
+							
+								[spr_prof_avatar, "Thanks again, you literally saved my life.", noone],
+								
+								[spr_prof_shopkeeper, "No problem, alright alright, off you go", noone]
 							]
 							
