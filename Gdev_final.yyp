@@ -10,6 +10,7 @@
     {"id":{"name":"spr_avatar_NW","path":"sprites/spr_avatar_NW/spr_avatar_NW.yy",},"order":8,},
     {"id":{"name":"spr_building_hitbox","path":"sprites/spr_building_hitbox/spr_building_hitbox.yy",},"order":3,},
     {"id":{"name":"font_UI","path":"fonts/font_UI/font_UI.yy",},"order":3,},
+    {"id":{"name":"spr_innocent_block","path":"sprites/spr_innocent_block/spr_innocent_block.yy",},"order":20,},
     {"id":{"name":"obj_npc_base","path":"objects/obj_npc_base/obj_npc_base.yy",},"order":2,},
     {"id":{"name":"spr_bg_building","path":"sprites/spr_bg_building/spr_bg_building.yy",},"order":0,},
     {"id":{"name":"spr_prof_avatar","path":"sprites/spr_prof_avatar/spr_prof_avatar.yy",},"order":0,},
@@ -175,6 +176,6 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2022.0.3.83",
+    "IDEVersion": "2022.0.2.51",
   },
 }
