@@ -1,7 +1,6 @@
 
 function scr_show_next_dialogue(){
-
-
+	
 var obj = argument0;
 
 if (ds_queue_size(obj.dialogue_queue) > 0) {
