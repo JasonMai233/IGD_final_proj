@@ -7,3 +7,7 @@ if (distance_to_object(obj_avatar) <= 10)
 }
 
 
+// definition for three variable：
+//dialogue_finished: check if the player had finished the conversation before or not
+//dialogue_restart_num: if finished before, which dialogue dose it start again from
+//dialogue content: actual dialogue data stored in new_npc_dialogues script.

@@ -11,9 +11,10 @@ if(within_zone() && !showed)
 }
 if(show_tut)
 {
+	gif_frame_change(3, tutorial_id[current_page-1][1]);
 	draw_sprite(spr_tut_bg, 0, center_x, center_y);
-	draw_sprite(tutorial_id[current_page-1][1], -1, center_x, center_y-100);
-	draw_text_ext(center_x - 400, center_y + 20, tutorial_id[current_page-1][0],25,800);
+	draw_sprite(tutorial_id[current_page-1][1], frame_counter, center_x, center_y-100);
+	draw_text_ext(center_x - 400, center_y + 70, tutorial_id[current_page-1][0],25,800);
 	page_txt = "(" + string(current_page) + "/" + string(array_length(tutorial_id)) + ")";
 	if (current_page == 1)
 	{

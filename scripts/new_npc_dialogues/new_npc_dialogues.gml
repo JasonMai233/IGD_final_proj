@@ -1,4 +1,9 @@
 // main difference is new structure
+// [0] will be the profile art info, [0][0] is left and [0][1] is right
+// for [1] to the end, the structure is composed of [who is speaking, dialogue text, dose the order continue]
+// if "dose the order continue" is noone, it means it will automatically goto the next dialogue after continue
+	// if a number is stated, it means it will goto that dialogue after continue.
+// there is allowed for a 4th element as choices, the choices array are in structure of [choice text, which dialogue it go to if selected].
 
 global.sample_new_dialogue = [	[spr_prof_avatar, spr_prof_shopkeeper],
 								//1
@@ -18,5 +23,6 @@ global.sample_new_dialogue = [	[spr_prof_avatar, spr_prof_shopkeeper],
 								//8
 								[spr_prof_avatar, "I think I got everything.", noone],
 								//9
-								[spr_prof_shopkeeper, "Alright, see you then!", -1]
+								[spr_prof_shopkeeper, "Alright, see you then!", noone]
 							]
+							

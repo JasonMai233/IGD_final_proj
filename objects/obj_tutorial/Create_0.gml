@@ -10,6 +10,26 @@ end_page = "press G to close tutorial";
 center_x = display_get_gui_width()/2;
 center_y = display_get_gui_height()/2;
 
+frame_sub_counter = 0;
+frame_counter = 0;
+frame_max = 0;
+function gif_frame_change(display_speed, spr)
+{
+	frame_max = sprite_get_number(spr);
+	if (frame_sub_counter <= display_speed)
+		frame_sub_counter ++
+	else
+	{
+		frame_sub_counter = 0;
+		frame_counter ++
+	}
+	
+	if(frame_counter >= frame_max - 1)
+	{
+		frame_counter = 0;
+	}
+}
+
 function within_zone()
 {
 	return (x_zone[0] <= obj_avatar.x && x_zone[1] >= obj_avatar.x && y_zone[0] <= obj_avatar.y && y_zone[1] >= obj_avatar.y);

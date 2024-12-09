@@ -4,7 +4,7 @@
   "name": "Sequence1",
   "spriteId": null,
   "timeUnits": 1,
-  "playback": 1,
+  "playback": 0,
   "playbackSpeed": 12.0,
   "playbackSpeedType": 0,
   "autoRecord": false,

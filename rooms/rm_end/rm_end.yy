@@ -17,11 +17,11 @@
   ],
   "layers": [
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances","instances":[
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1F8AEFA3","properties":[],"isDnd":false,"objectId":{"name":"obj_end","path":"objects/obj_end/obj_end.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":32.0,"y":128.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_16F52C9F","properties":[],"isDnd":false,"objectId":{"name":"obj_end","path":"objects/obj_end/obj_end.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":0.0,"y":160.0,},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRAssetLayer","resourceVersion":"1.0","name":"Assets_1","assets":[
-        {"resourceType":"GMRSpriteGraphic","resourceVersion":"1.0","name":"graphic_119E225B","spriteId":{"name":"spr_bg","path":"sprites/spr_bg/spr_bg.yy",},"ignore":false,"headPosition":0.0,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"inheritItemSettings":false,"x":-224.0,"y":-32.0,},
-        {"resourceType":"GMRSequenceGraphic","resourceVersion":"1.0","name":"graphic_2DED0FD6","x":672.0,"y":384.0,"sequenceId":{"name":"Sequence1","path":"sequences/Sequence1/Sequence1.yy",},"ignore":false,"headPosition":0.0,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"inheritItemSettings":false,},
+        {"resourceType":"GMRSpriteGraphic","resourceVersion":"1.0","name":"graphic_119E225B","spriteId":{"name":"spr_bg","path":"sprites/spr_bg/spr_bg.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":-224.0,"y":-32.0,},
+        {"resourceType":"GMRSequenceGraphic","resourceVersion":"1.0","name":"graphic_2DED0FD6","sequenceId":{"name":"Sequence1","path":"sequences/Sequence1/Sequence1.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":672.0,"y":384.0,},
       ],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","spriteId":null,"colour":4281932314,"x":0,"y":0,"htiled":false,"vtiled":false,"hspeed":0.0,"vspeed":0.0,"stretch":false,"animationFPS":15.0,"animationSpeedType":0,"userdefinedAnimFPS":false,"visible":true,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
   ],
@@ -29,7 +29,7 @@
   "creationCodeFile": "",
   "inheritCode": false,
   "instanceCreationOrder": [
-    {"name":"inst_1F8AEFA3","path":"rooms/rm_end/rm_end.yy",},
+    {"name":"inst_16F52C9F","path":"rooms/rm_end/rm_end.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
@@ -41,7 +41,7 @@
   },
   "viewSettings": {
     "inheritViewSettings": false,
-    "enableViews": true,
+    "enableViews": false,
     "clearViewBackground": false,
     "clearDisplayBuffer": true,
   },

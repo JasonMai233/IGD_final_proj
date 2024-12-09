@@ -1,3 +1,6 @@
+if(!changeable)
+	bld = c_yellow;
+
 image_blend = bld;
 
 depth = obj_avatar.depth +1;

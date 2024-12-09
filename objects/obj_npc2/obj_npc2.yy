@@ -33,7 +33,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "npc",
-    "path": "folders/Objects/collideable/npc.yy",
+    "name": "old",
+    "path": "folders/Objects/collideable/npc/old.yy",
   },
 }
