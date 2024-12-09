@@ -23,7 +23,7 @@ global.sample_new_dialogue = [	[spr_prof_avatar, spr_prof_shopkeeper],
 								//8
 								[spr_prof_avatar, "Where is the place again?", noone],
 								//9
-								[spr_prof_shopkeeper, "I think you should go North, leave it at the middle bush, right?		Come on... be more serious on your trade...", 7],
+								[spr_prof_shopkeeper, "I think you should go North, leave it at the middle bush, right? Come on... be more serious on your trade...", 7],
 								//10
 								[spr_prof_avatar, "Do you have any idea about what is going on in this City?", noone],
 								//11
