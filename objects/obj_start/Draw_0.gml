@@ -1,2 +1,3 @@
 draw_set_font(pixelfont);
-draw_text(x,y, "Modded Narrative Game. Press space to start");
+draw_sprite(spr_LOGO, 0, 0, 0);
+draw_text(x,y, "Press space to start");

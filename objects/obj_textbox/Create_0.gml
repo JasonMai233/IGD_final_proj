@@ -1,6 +1,7 @@
 text = "default text";
 target = obj_npc_base;
 
+depth = -room_height;
 function activation(new_text, targeted_npc)
 {
 	audio_play_sound(snd_talk, 10, false);

@@ -26,3 +26,16 @@ global.npc2_dialogue_after=[ "Thank you for saving me but OUCH! My eyes, my poor
 								"what an exprience of stucking in an ancient sealed room! Thank you, brave adventurer!",
 								"Thanks for the light, I found this stone tablet in this room, let me read it real quick.",
 								"'the central bush at the farest North is the finest escape', huh, what could this mean?"]
+global.note_dialogue = ["note from mom:",
+						"could you get the chip I ordered from the shop west across street?",
+						"also, be aware of those new construction sites!",
+						"these jumpers and conveyer belts are dangerous!",
+						"after you have the chip, leave it in the middle bush at north of the shop, I'll pick it up later."]
+						
+global.npc_temp_dialogue = ["I think the construction team broke the traffic lights...",
+							"for your safety, I suggest not passing the street right now.",
+							"but if you really need to pass the street right now...",
+							 "I think those jumpers in the construction site are the only option."]
+					
+global.shopkeeper_dialogue = ["hey there young boy! you are here for the chip your mom ordered, right?",
+								"there it is on the left, tell her I said hi!"]

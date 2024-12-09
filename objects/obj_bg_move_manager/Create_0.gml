@@ -36,9 +36,10 @@ function spawn_bg_npc()
 }
 
 car_spawn_cooldown = 0;
-car_spawn_cd_max = 50;
+car_spawn_cd_max = 20;
 car_spawn_x = [-100,1184,3000];
 car_spawn_y = [1750,-100,1650];
+car_color = [c_white, c_red, c_green, c_red]
 
 function spawn_bg_car()
 {
@@ -49,6 +50,7 @@ function spawn_bg_car()
 		//show_debug_message("spawned bg npc");
 		var spawn_loc = irandom_range(0,2);
 		var car = instance_create_layer(car_spawn_x[spawn_loc], car_spawn_y[spawn_loc], "instances", obj_bg_car);
+		//car.image_blend = car_color[irandom(array_length(car_color)-1)]; // change color later
 		switch(spawn_loc)
 		{
 			case 0:
