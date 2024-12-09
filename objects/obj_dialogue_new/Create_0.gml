@@ -10,7 +10,7 @@ dialogue_content = noone;
 visible = false;
 
 speaker_blend = c_white;
-nonspeaker_blend = c_black;
+nonspeaker_blend = c_gray;
 cur_selection = 0; // only used for dialogue with option
 
 spr1_blend = noone;
