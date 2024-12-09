@@ -55,25 +55,27 @@ if (visible) // visible means activated
 			}
 			draw_text(center_x + 200, center_y + 350 - 25*i, option);
 		}
-	}
-	
-	// switch option
-	if(keyboard_check_pressed(ord("W")))
-	{
-		if (cur_selection != array_length(choices)-1)
-			cur_selection ++;
-		else
-			cur_selection = 0;
-	}
+		
+		// switch option
+		if(keyboard_check_pressed(ord("W")))
+		{
+			if (cur_selection != array_length(choices)-1)
+				cur_selection ++;
+			else
+				cur_selection = 0;
+		}
 			
-	if(keyboard_check_pressed(ord("S")))
-	{
-		if (cur_selection != 0)
-			cur_selection --;
-		else
-			cur_selection = array_length(choices)-1;
+		if(keyboard_check_pressed(ord("S")))
+		{
+			if (cur_selection != 0)
+				cur_selection --;
+			else
+				cur_selection = array_length(choices)-1;
+		}
 	}
+
 	
+	// goto next line
 	if(keyboard_check_pressed(vk_space))
 	{
 		if (bug_buffer > 0)
@@ -88,14 +90,17 @@ if (visible) // visible means activated
 			else if (array_length(cur_dialogue) == 4) // dialogue with choices
 			{
 				dialogue_num = cur_dialogue[3][cur_selection][1];
+				show_debug_message(dialogue_num);
 			}
 			else if(cur_dialogue[2] == noone) // dialogue without loop
 			{
 				dialogue_num ++;
+				show_debug_message(dialogue_num);
 			}
 			else
 			{
 				dialogue_num = cur_dialogue[2]; // dialogue with loop
+				show_debug_message(dialogue_num);
 			}
 		}
 	}
@@ -103,5 +108,3 @@ if (visible) // visible means activated
 	surface_reset_target();
 	draw_surface(drawn_surface, 0, 0);
 }
-
-show_debug_message(dialogue_num);
