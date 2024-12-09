@@ -53,10 +53,11 @@ if (visible) // visible means activated
 				draw_set_color(c_white);
 				var option = cur_dialogue[3][i][0];
 			}
-			draw_text(center_x + 250, center_y + 350 - 25*i, option);
+			draw_text(center_x + 200, center_y + 350 - 25*i, option);
 		}
 	}
 	
+	// switch option
 	if(keyboard_check_pressed(ord("W")))
 	{
 		if (cur_selection != array_length(choices)-1)
