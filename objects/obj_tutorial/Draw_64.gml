@@ -1,3 +1,8 @@
+if(obj_avatar.x<1800 &&obj_avatar.x > 1500 && obj_avatar.y < 550 && obj_avatar.y > 400)
+{
+	draw_sprite(spr_tut_sign_1, 0, center_x, center_y - 100);
+}
+
 if(within_zone() && !showed)
 {
 	draw_sprite(spr_tut_sign, 0, center_x, center_y - 100);
@@ -8,7 +13,6 @@ if(within_zone() && !showed)
 		//show_debug_message("showed tutorial");
 	}
 }
-
 if(show_tut)
 {
 	draw_sprite(spr_tut_bg, 0, center_x, center_y);

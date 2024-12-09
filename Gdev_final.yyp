@@ -70,6 +70,7 @@
     {"id":{"name":"obj_bg_building","path":"objects/obj_bg_building/obj_bg_building.yy",},"order":5,},
     {"id":{"name":"snd_teleport","path":"sounds/snd_teleport/snd_teleport.yy",},"order":6,},
     {"id":{"name":"spr_dash_block_inactive","path":"sprites/spr_dash_block_inactive/spr_dash_block_inactive.yy",},"order":10,},
+    {"id":{"name":"spr_tut_sign_1","path":"sprites/spr_tut_sign_1/spr_tut_sign_1.yy",},"order":3,},
     {"id":{"name":"spr_protagonist","path":"sprites/spr_protagonist/spr_protagonist.yy",},"order":10,},
     {"id":{"name":"spr_npc_temp","path":"sprites/spr_npc_temp/spr_npc_temp.yy",},"order":14,},
     {"id":{"name":"obj_border","path":"objects/obj_border/obj_border.yy",},"order":6,},
