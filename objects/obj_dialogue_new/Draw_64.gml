@@ -31,17 +31,17 @@ if (visible) // visible means activated
 	}
 	
 	draw_clear_alpha(c_black, 0.4);
-	draw_sprite_ext(first_char, 0, center_x - 300, center_y + 10, 1, 1, 0, spr1_blend, 1);
-	draw_sprite_ext(second_char, 0, center_x + 300, center_y + 10, 1, 1, 0, spr2_blend, 1);
+	draw_sprite_ext(first_char, 0, center_x - 300, center_y - 50, 1, 1, 0, spr1_blend, 1);
+	draw_sprite_ext(second_char, 0, center_x + 300, center_y - 50, 1, 1, 0, spr2_blend, 1);
 	draw_sprite(spr_textbox_new, 0, center_x, center_y + 300);
 	draw_set_color(c_white);
 	draw_set_font(font_dialogue);
-	draw_text_ext(center_x - 350, center_y + 250,cur_dialogue[1], 25, 600);
+	draw_text_ext(center_x - 450, center_y + 250,cur_dialogue[1], 25, 600);
 	
 	if(array_length(cur_dialogue) == 4) // length 4 means dialogue with options
 	{
 		var choices = cur_dialogue[3];
-		for(i = 0; i < array_length(choices); i++)
+		for(i = 0; i < array_length(choices); i++) // draw options on the right
 		{
 			if (i == cur_selection)
 			{
@@ -53,7 +53,7 @@ if (visible) // visible means activated
 				draw_set_color(c_white);
 				var option = cur_dialogue[3][i][0];
 			}
-			draw_text(center_x + 200, center_y + 350 - 25*i, option);
+			draw_text(center_x + 150, center_y + 350 - 25*i, option);
 		}
 		
 		// switch option

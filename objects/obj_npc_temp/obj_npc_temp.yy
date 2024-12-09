@@ -12,8 +12,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_npc_base",
-    "path": "objects/obj_npc_base/obj_npc_base.yy",
+    "name": "obj_npc_base_new",
+    "path": "objects/obj_npc_base_new/obj_npc_base_new.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -28,10 +28,13 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
   ],
   "properties": [],
-  "overriddenProperties": [],
+  "overriddenProperties": [
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"dialogue_restart_num","path":"objects/obj_npc_base_new/obj_npc_base_new.yy",},"objectId":{"name":"obj_npc_base_new","path":"objects/obj_npc_base_new/obj_npc_base_new.yy",},"value":"4",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"dialogue_content","path":"objects/obj_npc_base_new/obj_npc_base_new.yy",},"objectId":{"name":"obj_npc_base_new","path":"objects/obj_npc_base_new/obj_npc_base_new.yy",},"value":"global.robot_new_dialogue",},
+  ],
   "parent": {
     "name": "npc",
     "path": "folders/Objects/collideable/npc.yy",

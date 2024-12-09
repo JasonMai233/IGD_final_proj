@@ -1,4 +1,4 @@
-if(!changeable)
+if(!changeable && dash_dis == 160)
 	bld = c_yellow;
 
 image_blend = bld;

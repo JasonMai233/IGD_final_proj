@@ -79,6 +79,7 @@
     {"id":{"name":"spr_tut_teleporter_2","path":"sprites/spr_tut_teleporter_2/spr_tut_teleporter_2.yy",},"order":3,},
     {"id":{"name":"spr_tut_sign_1","path":"sprites/spr_tut_sign_1/spr_tut_sign_1.yy",},"order":3,},
     {"id":{"name":"spr_npc_temp","path":"sprites/spr_npc_temp/spr_npc_temp.yy",},"order":14,},
+    {"id":{"name":"spr_prof_robot","path":"sprites/spr_prof_robot/spr_prof_robot.yy",},"order":2,},
     {"id":{"name":"obj_border","path":"objects/obj_border/obj_border.yy",},"order":6,},
     {"id":{"name":"spr_npc2","path":"sprites/spr_npc2/spr_npc2.yy",},"order":4,},
     {"id":{"name":"spr_fell","path":"sprites/spr_fell/spr_fell.yy",},"order":17,},
@@ -183,6 +184,6 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2022.0.2.51",
+    "IDEVersion": "2022.0.3.83",
   },
 }
