@@ -18,6 +18,7 @@ spr2_blend = noone;
 
 function open_dialogue(owner, finished, restart_num, dialogue)
 {
+	global.free_move = false;
 	dialogue_owner = owner;
 	dialogue_content = dialogue;
 	if(finished)
