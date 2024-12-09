@@ -12,8 +12,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_npc_base",
-    "path": "objects/obj_npc_base/obj_npc_base.yy",
+    "name": "obj_npc_base_new",
+    "path": "objects/obj_npc_base_new/obj_npc_base_new.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -27,9 +27,7 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {

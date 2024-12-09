@@ -5,7 +5,8 @@ if(obj_avatar.x<1800 &&obj_avatar.x > 1500 && obj_avatar.y < 550 && obj_avatar.y
 
 if(within_zone() && !showed)
 {
-	draw_sprite(spr_tut_sign, 0, center_x, center_y - 100);
+	draw_set_font(font_UI);
+	draw_text(center_x - string_width(hint)/2, center_y - 150, hint);
 	if(keyboard_check_pressed(ord("G")))
 	{
 		showed = true;
@@ -17,7 +18,7 @@ if(show_tut)
 {
 	draw_sprite(spr_tut_bg, 0, center_x, center_y);
 	draw_sprite(tutorial_id[current_page-1][1], -1, center_x, center_y-100);
-	draw_text_ext(center_x - 400, center_y + 100, tutorial_id[current_page-1][0],15,800);
+	draw_text_ext(center_x - 400, center_y + 20, tutorial_id[current_page-1][0],25,800);
 	page_txt = "(" + string(current_page) + "/" + string(array_length(tutorial_id)) + ")";
 	if (current_page == 1)
 	{

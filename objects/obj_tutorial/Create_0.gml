@@ -2,6 +2,7 @@ current_page = 1;
 show_tut = false;
 showed = false;
 
+hint = "Click G to see tutorial.";
 prev_page = "<<< A";
 next_page = "D >>>";
 end_page = "press G to close tutorial";
