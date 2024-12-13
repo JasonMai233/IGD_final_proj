@@ -17,7 +17,7 @@
   "soundFile": "snd_door_2.mp3",
   "duration": 1.436735,
   "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "name": "old",
+    "path": "folders/Sounds/old.yy",
   },
 }

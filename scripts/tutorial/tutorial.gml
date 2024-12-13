@@ -8,3 +8,9 @@ global.tut_1 = [
 				[ "The purple and red jumper will switch on and off when you teleport onto a button, the yellow version will not, and the red version will teleport you further.",
 				    spr_tut_teleporter_2]
 				]
+
+global.tut_0 = [
+				["use WASD to move around", spr_tut_WASD],
+				["use Shift to move faster", spr_tut_Shift],
+				["use Space to talk to people", spr_tut_Space]
+				]

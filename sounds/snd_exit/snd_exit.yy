@@ -17,7 +17,7 @@
   "soundFile": "snd_exit.mp3",
   "duration": 0.906281,
   "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "name": "old",
+    "path": "folders/Sounds/old.yy",
   },
 }

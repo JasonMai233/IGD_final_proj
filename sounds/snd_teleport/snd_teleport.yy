@@ -17,7 +17,7 @@
   "soundFile": "snd_teleport.mp3",
   "duration": 0.574688,
   "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "name": "old",
+    "path": "folders/Sounds/old.yy",
   },
 }

@@ -17,7 +17,7 @@
   "soundFile": "snd_talk.mp3",
   "duration": 0.205578,
   "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "name": "old",
+    "path": "folders/Sounds/old.yy",
   },
 }

@@ -94,8 +94,9 @@ if (visible) // visible means activated
 		
 		if (text_counter < text_max) // if line not fully displayed
 			text_counter = text_max // display it to full line
-		else // then if fully displayed, goto next line
+		else // then if fully displayed, goto next line and display sound
 		{
+			audio_play_sound(snd_talk, 11, false);
 			text_counter = 0;
 			cur_displayed_text = "";
 

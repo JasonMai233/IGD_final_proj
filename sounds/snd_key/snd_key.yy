@@ -17,7 +17,7 @@
   "soundFile": "snd_key.mp3",
   "duration": 0.439841,
   "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "name": "old",
+    "path": "folders/Sounds/old.yy",
   },
 }
